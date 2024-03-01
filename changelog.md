@@ -2,6 +2,12 @@
 
 Archivo de control de cambios del proyecto cochecito
 
+## [2.0.0] 1 marzo 9:21
+
+### Added
+
+- Se trabaja con variables de entorno
+
 ## [1.1.1] 1 marzo 9:06
 
 ### Fixed

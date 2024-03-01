@@ -1,6 +1,6 @@
 {
   "name": "cochecito",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "proyecto de software de un cochecito",
   "main": "./src/index.js",
   "engines": {
@@ -27,5 +27,8 @@
   "license": "ISC",
   "devDependencies": {
     "crypto-js": "^4.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }

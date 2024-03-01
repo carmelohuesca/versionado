@@ -1,3 +1,5 @@
+const dotenv = require('dotenv');
+dotenv.config();
 class Car {
 
     constructor(color) {
@@ -5,6 +7,7 @@ class Car {
         this.color = color;
         console.log(`tengo un coche de color ${color}`);
         console.log(`estoy a ${this.velocity} km/h`);
+        console.log(`apunto al API de ${process.env.API} en el entorno de ${process.env.ENV_NAME}`);
     }
 
     accelerate() {
